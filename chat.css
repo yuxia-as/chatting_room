@@ -1,0 +1,91 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0}
+body{
+	font-size: 16px;
+	background-color:lightpink;
+}
+#login{
+	/*display: none;*/
+	position: absolute;
+	left:50%;
+	top:130px;
+	width:400px;
+	height:200px;
+	margin-left: -200px;
+	background-color: #bee9ea;
+}
+#login p{
+	margin-top:50px;
+	margin-left: 120px;
+	font-size: 25px;
+	font-weight: bold; 
+}
+#login div{
+	margin-top:12px;
+	margin-left:30px;
+}
+#login div label{
+	margin-right: 4px;
+}
+#check_info{
+	display: block;
+	margin-top:20px;
+	font-weight: bold;
+	color: crimson;
+
+
+}
+#chat{
+	display: none;
+	min-height: 600px;
+	width:900px;
+	/*height:800px;*/
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	margin:0 auto;
+	background-color: lightyellow;
+}
+#status{
+	width:892px;
+	height: 50px;
+	background-color: #00B7FF;
+	padding-left:8px;
+	padding-top:5px;
+}
+#status span{
+	font-size: 18px;
+	color: red;
+}
+#status ul{
+	display:inline-block;
+}
+#status ul li{
+	padding-left: 6px;
+	display:inline-block;
+	list-style: circle;
+}
+#list{
+	padding-left: 18px;
+	line-height: 25px;
+}
+#publish{
+	width:900px;
+	height: 70px;
+	line-height: 70px;
+	position: fixed;
+	left: 50%;
+	bottom: 0px;
+	margin-left: -450px;
+	background-color: #00B7FF;
+}
+#publish input{
+	display: inline-block;
+	width:800px;
+	height:40px;
+	margin-left:8px;
+}
+#publish button{
+	display: inline-block;
+	width:80px;
+	height:40px;
+	font-size: 18px;
+}

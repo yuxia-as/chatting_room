@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="socket.io.js"></script>
+    <link rel="stylesheet" href="chat.css" type="text/css">
+</head>
+<body>
+    <!-- log in window -->
+    <div id="login" >
+        <p>Chatting Room</p>
+        <div>
+            <label>Enter a Name:</label><input type="text" id="login_name">
+            <button>Go In</button>
+            <!-- check if enter a valid information and post invalid message here with ajax-->
+            <span id="check_info"></span>
+        </div>
+
+    </div>
+    <!-- chatting room window -->
+    <div id="chat">
+        <!--show the current online persons-->
+        <div id="status">
+            <p>The number of current online chatter:<span>0</span><p></p>
+            <div>The list of members:
+                <ul><li></li></ul>
+            </div>
+        </div>
+        <!-- chatting message listing here -->
+        <div id="list">
+
+        </div>
+        <!-- input message here -->
+        <div id="publish">
+            <input type="text" name="msg"/>
+            <button>submit</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="chat.js"></script>
+</body>
+</html>
